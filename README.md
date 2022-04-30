@@ -1,1 +1,1 @@
-# lol-site
+# Riot Games homepage
