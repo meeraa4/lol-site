@@ -6,7 +6,7 @@ jQuery(document).ready(function() {
     });
 
     $(".gotop").click(function() {
-        $('html, body').animate({scrollTop:0}, 700);
+        $("html").animate({scrollTop:0}, 700);
     });
 
 });
