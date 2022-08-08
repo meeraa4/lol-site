@@ -383,12 +383,30 @@ body {
 
 .bmenu2 {
     height: 75px;
+}
+
+.copy {
+    float: left;
+    height: 75px;
     line-height: 75px;
     font-size: 14px; 
 }
 
-.bmenu2 p {
+.copy p {
     margin-left: 50px;
     color: rgb(158, 156, 156);
 }
 
+.gotop {
+    float: left;
+}
+
+.gotop a {
+    margin-left: 1355px;
+    line-height: 75px;
+    color: rgb(146, 145, 145);
+}
+
+.gotop a:hover {
+    color: white;
+}

@@ -4,4 +4,9 @@ jQuery(document).ready(function() {
     }).mouseout(function() {
         $(this).find(".sub").stop().slideUp(500)
     });
+
+    $(".gotop").click(function() {
+        $('html, body').animate({scrollTop:0}, 700);
+    });
+
 });
